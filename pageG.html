@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Godot 3D Tut</title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Godot 3D Tutorial">
+    <meta name="author" content="Anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+</head>
+
+<body>
+  <div class="center">
+      <h1>G - Moving Objects</h1>
+      <audio controls>
+        <source src="audio/pageG.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <image>
+        <img alt="pageG1" src="images/init/init17.png" width=1280px>
+      </image>
+      <ul>
+        <li>
+          <p>
+            Now, you will be adding a moveable physics object that will interact
+            with your floor.
+          </p>
+        </li>
+        <li>
+          <p>1.
+            (1) Be sure World is selected and <span class="r">click the + icon</span> to add a child;
+            <span class="r">(2) Search "rigidb"</span> and <span class="r">(3) double click
+              RigidBody from the list of nodes.</span>
+          </p>
+          <p>
+            A <span class="p">RigidBody</span> is very similar to a <span class="p">StaticBody</span>.
+            The difference is that a <span class="p">RigidBody</span> is intended to move, so
+            it's automatically affected by gravity.
+          </p>
+        </li>
+      </ul>
+      <image>
+        <img alt="pageG2" src="images/init/init18.png" width=1280px>
+      </image>
+      <ul>
+        <li>
+          <p>
+            The <span class="p">RigidBody</span> should have the familiar yellow caution
+            symbol next to it. It's for the same reason as before with your <span class="p">StaticBody</span>.
+          </p>
+          <p>
+            You will carry out the same process as before, but I've added a video because it's
+            a wordy process:
+          </p>
+        </li>
+        <video width="600" controls>
+          <source src="images/RBSetup.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+        <li>
+          <p>2.
+            Add a <span class="p">CollisionShape</span> node and <span class="p">MeshInstance</span>
+            node as children of your RigidBody.
+            Under the Inspector tab, add a BoxShape to the <span class="p">CollisionShape</span>'s Shape parameter, and
+            a CubeMesh to the <span class="p">MeshInstance</span>'s Mesh parameter.
+          </p>
+        </li>
+        <image>
+          <img alt="pageG3" src="images/init/init20.png" width=1280px>
+        </image>
+        <li>
+          <p>3.
+            With the <span class="g">RigidBody selected</span>, <span class="r">click
+              the green arrow and drag upwards<span> to lift the RigidBody up.
+          </p>
+        </li>
+        <image>
+          <img alt="pageG4" src="images/init/init21.png" width=1280px>
+        </image>
+        <li>
+          <p>4.
+            With the RigidBody still selected, <span class="r">click
+              and drag a ring<span> to rotate your RigidBody (I renamed mine to "Box").
+          </p>
+        </li>
+        <image>
+          <img alt="pageG4" src="images/init/init22.png" width=1280px>
+        </image>
+      </ul>
+      <!-- <div class="center">
+          <i class="footnote">Footnote I: The Transform parameters </i>
+      </div> -->
+  </div>
+    <div class="center-pag">
+      <div class="pagination">
+        <a href="pageF.html">&laquo;</a>
+        <a href="pageA.html">A</a>
+        <a href="pageB.html">B</a>
+        <a href="pageC.html">C</a>
+        <a href="pageD.html">D</a>
+        <a href="pageE.html">E</a>
+        <a href="pageF.html">F</a>
+        <a class="active" href="pageG.html">G</a>
+        <a href="pageH.html">H</a>
+        <!-- <a href="pageI.html">I</a>
+        <a href="pageJ.html">J</a>
+        <a href="pageK.html">K</a>
+        <a href="pageL.html">L</a>
+        <a href="pageM.html">M</a>
+        <a href="pageN.html">N</a>
+        <a href="pageO.html">O</a>
+        <a href="pageP.html">P</a>
+        <a href="pageQ.html">Q</a>
+        <a href="pageR.html">R</a>
+        <a href="pageS.html">S</a>
+        <a href="pageT.html">T</a> -->
+        <a href="pageH.html">&raquo;</a>
+      </div>
+    </div>
+    <footer>copyright Joey Reyes at DePaul University, May 2021</footer>
+</body>
+</html>

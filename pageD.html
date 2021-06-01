@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Godot 3D Tut</title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Godot 3D Tutorial">
+    <meta name="author" content="Anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+</head>
+
+<body>
+    <div class="center">
+        <h1>D - Creating Child Nodes</h1>
+        <audio controls>
+          <source src="audio/pageD.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <image>
+          <img alt="pageD1" src="images/init/init6.png" width=1280px>
+        </image>
+        <ul>
+          <li>
+            <p>1.
+              With the World node selected, <span class="r">click the + button</span> to
+              create a <span class="p">child node</span>. This button will always create a
+              <span class="p">child</span>
+              of the selected node, so it's very important to have the correct node selected before
+              pressing it.
+              <!-- Child nodes can have more child nodes,
+              but our World node governs the scene, and does not have a parent. -->
+            </p>
+          </li>
+        </ul>
+        <image>
+          <img alt="pageD2" src="images/init/init7.png" width=1280px>
+        </image>
+        <ul>
+          <li>
+            <p>2.
+              <span class="g">Search</span> "static" to find the <span class="p">StaticBody</span>
+              node. Double click <span class="p">StaticBody</span>
+              to add this node to your scene. The <span class="p">StaticBody</span> is intended to be
+              a physics object that doesn't move, so it'll be perfect for the floor of the scene.
+            </p>
+          </li>
+        </ul>
+        <image>
+          <img alt="pageD3" src="images/init/init8.png" width=1280px>
+        </image>
+        <ul>
+          <li>
+            <p>3.
+              As you may notice, you have a <span class="g">yellow caution symbol</span> next to your new child.
+              For our physics "body" nodes, they will require a <span class="p">CollisionShape</span> to be able
+              to interact or do anything to do with physics in this scene.
+            </p>
+          </li>
+          <image>
+            <img alt="pageD4" src="images/init/init9.png" width=1280px>
+          </image>
+          <li>
+            <p>4.
+              Just as you did in step 2 of this page,
+              <span class="r">add a child (+ button with StaticBody selected)</span>
+              to the
+              <span class="p">StaticBody</span>. This time,
+              <span class="g">search "collision"</span>
+              and <span class="r">double click CollisionShape</span>. For clarity sake,
+              rename the <span class="p">StaticBody</span> to "Floor".
+            </p>
+            <p>
+              Remember, to rename a node <span class="r">right click it</span> in the
+              list of nodes in our scene and select <strong>Rename.</strong>
+            </p>
+          </li>
+        </ul>
+        <div class="center">
+            <i class="footnote">Footnote I: All nodes you create
+            for this tutorial will be 3D, which is marked by pale red
+          icons next to the node names. Blue, green, and white nodes should effectively be ignored.</i>
+        </div>
+    </div>
+    <div class="center-pag">
+      <div class="pagination">
+        <a href="pageC.html">&laquo;</a>
+        <a href="pageA.html">A</a>
+        <a href="pageB.html">B</a>
+        <a href="pageC.html">C</a>
+        <a class="active" href="pageD.html">D</a>
+        <a href="pageE.html">E</a>
+        <a href="pageF.html">F</a>
+        <a href="pageG.html">G</a>
+        <a href="pageH.html">H</a>
+        <!-- <a href="pageI.html">I</a>
+        <a href="pageJ.html">J</a>
+        <a href="pageK.html">K</a>
+        <a href="pageL.html">L</a>
+        <a href="pageM.html">M</a>
+        <a href="pageN.html">N</a>
+        <a href="pageO.html">O</a>
+        <a href="pageP.html">P</a>
+        <a href="pageQ.html">Q</a>
+        <a href="pageR.html">R</a>
+        <a href="pageS.html">S</a>
+        <a href="pageT.html">T</a> -->
+        <a href="pageE.html">&raquo;</a>
+      </div>
+    </div>
+    <footer>copyright Joey Reyes at DePaul University, May 2021</footer>
+</body>
+</html>

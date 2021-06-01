@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Godot 3D Tut</title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Godot 3D Tutorial">
+    <meta name="author" content="Anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+</head>
+
+<body>
+  <div class="center">
+      <h1>E - The Inspector</h1>
+      <audio controls>
+        <source src="audio/pageE.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <image>
+        <img alt="pageE1" src="images/init/init10.png" width=1280px>
+      </image>
+      <ul>
+        <li>
+          <p>1.
+            Again, you have a <span class="g">yellow caution symbol</span>, warning you of something.
+            With the <span class="p">CollisionShape</span> selected, observe the
+            <span class="p">Inspector</span> tab on the right side of the screen.
+          </p>
+          <p>
+            The <span class="p">Inspector</span> contains parameters of the selected node. As the
+            tooltip says while hovering the <span class="g">yellow caution symbol</span>,
+            The <span class="p">CollisionShape</span> requires you to change its "Shape"
+            parameter.
+          </p>
+        </li>
+      </ul>
+      <image>
+        <img alt="pageE2" src="images/init/init11.png" width=1280px>
+      </image>
+      <ul>
+        <li>
+          <p>2.
+            In the <span class="p">Inspector</span> tab, <span class="r">click</span> the dropdown
+            menu next to the Shape parameter. Then, <span class="r">click</span> New BoxShape. The
+            caution symbol should now disappear.
+          </p>
+          <p>
+            Your <span class="p">StaticBody</span> node named "Floor" can now detect collisions
+            in our scene because you added Shape data to it.
+          </p>
+        </li>
+      </ul>
+      <image>
+        <img alt="pageE3" src="images/init/init12.png" width=1280px>
+      </image>
+      <ul>
+        <li>
+          <p>3.
+            To make your Floor visible, <span class="r">add a</span>
+            <span class="p">MeshInstance</span> node as a child to the Floor (StaticBody).
+          </p>
+          <p>
+            Once again, be sure you <span class="r">(1) have the Floor (StaticBody) selected. (2) Search "meshin"
+              to find and (3) select the MeshInstance node from the list (double click)
+            </span> to add a the desired child.
+          </p>
+        </li>
+        <image>
+          <img alt="pageE3" src="images/init/init13.png" width=1280px>
+        </image>
+        <li>
+          <p>4.
+            Similarly to step 1, you must use the <span class="p">Inspector</span> to modify
+            a parameter. This time, you must modify the Mesh parameter of the newly added
+            <span class="p">MeshInstance</span> node. <span class="r">Click the dropdown
+            menu</span> and <span class="r">click New CubeMesh</span>
+          </p>
+        </li>
+      </ul>
+      <!-- <div class="center">
+          <i class="footnote">Footnote I: I am on a windows machine, and will be saying
+          "ctrl+S" which always translates to cmd+S for mac users.</i>
+      </div> -->
+  </div>
+    <div class="center-pag">
+      <div class="pagination">
+        <a href="pageD.html">&laquo;</a>
+        <a href="pageA.html">A</a>
+        <a href="pageB.html">B</a>
+        <a href="pageC.html">C</a>
+        <a href="pageD.html">D</a>
+        <a class="active" href="pageE.html">E</a>
+        <a href="pageF.html">F</a>
+        <a href="pageG.html">G</a>
+        <a href="pageH.html">H</a>
+        <!-- <a href="pageI.html">I</a>
+        <a href="pageJ.html">J</a>
+        <a href="pageK.html">K</a>
+        <a href="pageL.html">L</a>
+        <a href="pageM.html">M</a>
+        <a href="pageN.html">N</a>
+        <a href="pageO.html">O</a>
+        <a href="pageP.html">P</a>
+        <a href="pageQ.html">Q</a>
+        <a href="pageR.html">R</a>
+        <a href="pageS.html">S</a>
+        <a href="pageT.html">T</a> -->
+        <a href="pageF.html">&raquo;</a>
+      </div>
+    </div>
+    <footer>copyright Joey Reyes at DePaul University, May 2021</footer>
+</body>
+</html>
